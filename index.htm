@@ -10,26 +10,49 @@
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
         }
-        
+
         .topnav {
             overflow: hidden;
             background-color: #016F52;
         }
-        
+
         .topText {
             background-color: #016F52;
             color: #fff;
             text-align: center;
-            font-family: Arial, Helvetica, sans-serif float: center;
+            font-family: Arial, Helvetica, sans-serif
+            float: center;
         }
-        
+
         .topHeader {
             background-color: #7AC141;
             font-size: 20px;
             color: #fff;
             font-family: Arial, Helvetica, sans-serif
         }
-        
+
+        .miningWidget {
+            background-color: #7AC141;
+            border: #016F52;
+            display: inline-block;
+        }
+
+        .walletWidget {
+            background-color: #7AC141;
+            border: #016F52;
+            display: inline-block;
+        }
+
+        .infoWidget {
+            background-color: #7AC141;
+            border: #016F52;
+            display: inline-block;
+        }
+
+        .mainSec {
+            margin: 0px;
+        }
+
         .topnav a {
             float: left;
             display: block;
@@ -39,22 +62,21 @@
             text-decoration: none;
             font-size: 17px;
         }
-        
+
         .topnav a:hover {
             background-color: #7AC141;
             color: black;
         }
-        
+
         .topnav a.active {
             background-color: #7AC141;
             color: black;
         }
-        
+
         .topnav .icon {
             display: none;
         }
 
-        
         @media screen and (max-width: 600px) {
             .topnav a:not(:first-child) {
                 display: none;
@@ -64,7 +86,7 @@
                 display: block;
             }
         }
-        
+
         @media screen and (max-width: 600px) {
             .topnav.responsive {
                 position: relative;
@@ -84,62 +106,78 @@
 </head>
 
 <body>
-    <div class="topText" style="margin: 0px;padding: 0px;">
-        <!-- Insert the icon here -->
-        <img src="VikingCoinLogo.jpg" width="75px" height="75px" align="right">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="topText" style="margin: 0px;padding: 0px;">
+    <!-- Insert the icon here -->
+    <img src="VikingCoinLogo.jpg" width="75px" height="75px" align="right">
 
-        <h2 style="margin: 0px;">VikingCoin</h2>
-    </div>
+    <h2 style="margin: 0px;">VikingCoin</h2>
+</div>
+<div class="topnav" id="myTopnav">
+    <a href="#home">Home</a>
+    <a href="#mining">Mining</a>
+    <a href="#wallet">Wallet</a>
+    <a href="#info">Information</a>
+    <a href="#contact">Feedback/Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
 
-    <div class="topnav" id="myTopnav">
-        <a href="#home">Home</a>
-        <a href="#mining">Mining</a>
-        <a href="#wallet">Wallet</a>
-        <a href="#info">Information</a>
-        <a href="#contact">Feedback/Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
+<div class="topHeader" style="margin: 0px; padding: 2px;">
+    <center>
+        <p>Send/Receive Money, Earn Money, all Decentralized Courtesy of Blockchain</p>
+    </center>
+</div>
 
-    <div class="topHeader" style="margin: 0px; padding: 2px;">
-        <center>
-            <p>Send/Receive Money, Earn Money, all Decentralized Courtesy of Blockchain</p>
-        </center>
-    </div>
-
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
         }
-    </script>
+    }
+</script>
+
+</body>
+
+<body class="mainSec">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="miningWidget" style="padding: 16px; margin: 16px; height: 75vh;alignment: left; width: 60vh" ;>
+    <button style="alignment: bottom; height: 50px; width: auto">Start Mining</button>
+</div>
+
+<div class="walletWidget" style="padding: 16px; margin: 16px; height: 75vh;alignment: center; width: 60vh" ;>
+    <button style="height: 50px; width: auto">Start Mining</button>
+</div>
+
+<div class="infoWidget" style="padding: 16px; margin: 16px; height: 75vh;alignment: right; width: 60vh" ;>
+    <button style="height: 50px; width: auto">Start Mining</button>
+</div>
 
 </body>
 <footer>
     <style>
         /*footer*/
-    .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: black;
-        color: white;
-        text-align: center;
-    }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
         input[type=text], select, textarea {
-         width: 100%;
-         padding: 12px;
-         border: 1px solid #ccc;
-         margin-top: 6px;
-         margin-bottom: 16px;
-         resize: vertical;
-     }
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
 
         input[type=submit] {
             background-color: #4CAF50;
@@ -170,4 +208,5 @@
         <p>foo1562ter</p>
     </div>
 </footer>
+
 </html>
