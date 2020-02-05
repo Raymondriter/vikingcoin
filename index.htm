@@ -20,39 +20,16 @@
             background-color: #016F52;
             color: #fff;
             text-align: center;
-            font-family: Arial, Helvetica, sans-serif
-            float: center;
+            font-family: Arial, Helvetica, sans-serif float: center;
         }
-
+        
         .topHeader {
             background-color: #7AC141;
             font-size: 20px;
             color: #fff;
             font-family: Arial, Helvetica, sans-serif
         }
-
-        .miningWidget {
-            background-color: #7AC141;
-            border: #016F52;
-            display: inline-block;
-        }
-
-        .walletWidget {
-            background-color: #7AC141;
-            border: #016F52;
-            display: inline-block;
-        }
-
-        .infoWidget {
-            background-color: #7AC141;
-            border: #016F52;
-            display: inline-block;
-        }
-
-        .mainSec {
-            margin: 0px;
-        }
-
+        
         .topnav a {
             float: left;
             display: block;
@@ -76,6 +53,7 @@
         .topnav .icon {
             display: none;
         }
+
         
         @media screen and (max-width: 600px) {
             .topnav a:not(:first-child) {
@@ -106,13 +84,13 @@
 </head>
 
 <body>
-<meta name="viewport" content="width=device-width, initial-scale=1">
     <div class="topText" style="margin: 0px;padding: 0px;">
         <!-- Insert the icon here -->
         <img src="VikingCoinLogo.jpg" width="75px" height="75px" align="right">
 
         <h2 style="margin: 0px;">VikingCoin</h2>
     </div>
+
     <div class="topnav" id="myTopnav">
         <a href="#home">Home</a>
         <a href="#mining">Mining</a>
@@ -142,21 +120,54 @@
     </script>
 
 </body>
+<footer>
+    <style>
+        /*footer*/
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+        input[type=text], select, textarea {
+         width: 100%;
+         padding: 12px;
+         border: 1px solid #ccc;
+         margin-top: 6px;
+         margin-bottom: 16px;
+         resize: vertical;
+     }
 
-<body class="mainSec">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<div class="miningWidget" style="padding: 16px; margin: 16px; height: 75vh;alignment: left; width: 60vh" ;>
-    <button style="alignment: bottom; height: 50px; width: auto">Start Mining</button>
-</div>
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+        }
 
-<div class="walletWidget" style="padding: 16px; margin: 16px; height: 75vh;alignment: center; width: 60vh" ;>
-    <button style="height: 50px; width: auto">Start Mining</button>
-</div>
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+            .column, input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+    </style>
 
-<div class="infoWidget" style="padding: 16px; margin: 16px; height: 75vh;alignment: right; width: 60vh" ;>
-    <button style="height: 50px; width: auto">Start Mining</button>
-</div>
+    <!-- Fixed footer text data etc. -->
+    <div class="footer ">
+        <div style="text-align:left">
+            <h2>Feedback</h2>
 
-</body>
-
+        </div>
+        <p>foo1562ter</p>
+    </div>
+</footer>
 </html>
