@@ -166,6 +166,7 @@
             left: 0;
             bottom: 0;
             width: 100%;
+            height: 15%;
             background-color: black;
             color: white;
             text-align: center;
@@ -174,7 +175,7 @@
             width: 100%;
             padding: 12px;
             border: 1px solid #ccc;
-            margin-top: 6px;
+            margin-top: 0;
             margin-bottom: 16px;
             resize: vertical;
         }
@@ -182,6 +183,7 @@
         input[type=submit] {
             background-color: #4CAF50;
             color: white;
+            margin-top: 2px;
             padding: 12px 20px;
             border: none;
             cursor: pointer;
@@ -197,15 +199,64 @@
                 margin-top: 0;
             }
         }
+        input[type=text], select, textarea {
+            width: 50%;
+            height: 70%;
+            padding: 0;
+            border: 1px solid #ccc;
+            margin-top: 3px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+        .column {
+            float: left;
+            width: 50%;
+            margin-top: 2px;
+            padding: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+            .column, input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
     </style>
 
     <!-- Fixed footer text data etc. -->
     <div class="footer ">
         <div style="text-align:left">
-            <h2>Feedback</h2>
-
+            <div class="row">
+                <div class="column">
+                </div>
+                <div class="column">
+        <form action="/action_page.php">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email address...">
+        <br>
+            <label for="subject"></label>
+            <textarea id="subject" name="subject" placeholder="Your message..." style="height:170px"></textarea>
         </div>
-        <p>foo1562ter</p>
+
     </div>
 </footer>
 
