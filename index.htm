@@ -182,6 +182,7 @@
             bottom: 0;
             width: 100%;
             height: 15%;
+            padding: 8px;
             background-color: black;
             color: white;
             text-align: center;
@@ -216,11 +217,11 @@
         }
         input[type=text], select, textarea {
             width: 50%;
-            height: 70%;
-            padding: 0;
+            height: 50%;
+            padding: 4px ;
             border: 1px solid #ccc;
             margin-top: 3px;
-            margin-bottom: 16px;
+            margin-bottom: 4px;
             resize: vertical;
         }
 
@@ -258,20 +259,21 @@
     </style>
 
     <!-- Fixed footer text data etc. -->
-    <div class="footer ">
-        <div style="text-align:left">
+    <div class="footer">
+        <div style="text-align:left; margin-bottom: 8px">
             <div class="row">
-                <div class="column">
-                </div>
                 <div class="column">
         <form action="/action_page.php">
         <label for="email">Email</label>
         <input type="email" id="email" name="email" placeholder="Your email address...">
         <br>
-            <label for="subject"></label>
+            <label for="email">Subject</label>
             <textarea id="subject" name="subject" placeholder="Your message..." style="height:170px"></textarea>
+            <br>
+        </form>
+                </div>
+            </div>
         </div>
-
     </div>
 </footer>
 
