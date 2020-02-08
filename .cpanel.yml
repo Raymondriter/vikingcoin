@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/vikingco/public_html
-    - /bin/cp index.htm $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
