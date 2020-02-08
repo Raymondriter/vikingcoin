@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/vikingco/repositories/vikingcoin
+    - export DEPLOYPATH=/home/vikingco/public_html
     - /bin/cp index.htm $DEPLOYPATH
