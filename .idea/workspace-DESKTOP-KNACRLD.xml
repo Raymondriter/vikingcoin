@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f61efa46-7d10-4bc0-83bf-874a96bbcbe2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/index.htm" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Raymond Riter &lt;rpr2998@gmail.com&gt;add" />
+        <option value="Raymond Riter &lt;rpr2998@gmail.com&gt;" />
+        <option value="rpr2998@gmail.com" />
+        <option value="Raymond Riter" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\rpr29\OneDrive - Cleveland State University\CSU\Spring 2020\EEC 494-2 Senior Design II\vikingcoin\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XPGMrns9CfbooDh5s5ShZpkwMl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f61efa46-7d10-4bc0-83bf-874a96bbcbe2" name="Default Changelist" comment="" />
+      <created>1580940270946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580940270946</updated>
+      <workItem from="1580940272161" duration="4549000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1580941208433</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580941208433</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding picture">
+      <created>1580941840472</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580941840472</updated>
+    </task>
+    <task id="LOCAL-00003" summary="picture size">
+      <created>1580942167821</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580942167821</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="inital commit" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="adding picture" />
+    <MESSAGE value="picture size" />
+    <option name="LAST_COMMIT_MESSAGE" value="picture size" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="401" y="112" key="CommitChangelistDialog2" timestamp="1580944944590">
+      <screen x="0" y="0" width="1707" height="930" />
+    </state>
+    <state x="401" y="112" key="CommitChangelistDialog2/0.0.1707.930@0.0.1707.930" timestamp="1580944944590" />
+    <state x="451" y="126" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1580941207434" />
+    <state x="740" y="283" key="FileChooserDialogImpl" timestamp="1580940993177">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="283" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1580940993177" />
+    <state x="838" y="424" width="261" height="202" key="Github.ShareDialog" timestamp="1580941298669">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="838" y="424" width="261" height="202" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580941298669" />
+    <state x="463" y="171" key="SettingsEditor" timestamp="1580940434722">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="463" y="171" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1580940434722" />
+    <state x="447" y="202" key="Vcs.Push.Dialog.v2" timestamp="1580944954038">
+      <screen x="0" y="0" width="1707" height="930" />
+    </state>
+    <state x="447" y="202" key="Vcs.Push.Dialog.v2/0.0.1707.930@0.0.1707.930" timestamp="1580944954038" />
+    <state x="771" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580941178899">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="771" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1580941178899" />
+  </component>
+</project>
