@@ -1,0 +1,175 @@
+html{
+    margin: 0;
+    max-height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #016F52;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+.middleHeading {
+    overflow: hidden;
+    border-bottom: 2px solid black;
+    background-color: #016F52;
+}
+
+.topHeading {
+    background-color: #78BE20;
+    color: #fff;
+    border-bottom: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topHeadingCol2{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+.topHeadingRow{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    background-color: #78BE20;
+}
+
+.bottomHeading {
+    background-color: #78BE20;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.miningWidget {
+    background-color: #78BE20;
+    border: 2px #016F52;
+    display: inline-block;
+    margin: 16px;
+    max-height: 700px;
+    max-width: 25%;
+}
+
+.walletWidget {
+    background-color: #78BE20;
+    border: #016F52;
+    display: inline-block;
+    margin: 16px;
+    max-height: 700px;
+    max-width: 25%;
+}
+
+.infoWidget {
+    background-color: #78BE20;
+    border: #016F52;
+    display: inline-block;
+    margin: 16px;
+    max-height: 700px;
+    max-width: 25%;
+ }
+
+
+.middleHeading a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid black;
+    font-size: 17px;
+}
+
+.middleHeading a:hover {
+    background-color: #7AC141;
+    color: black;
+}
+
+.middleHeading a.active {
+    background-color: #7AC141;
+    color: black;
+}
+
+.middleHeading .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    html{
+        margin: 0;
+        max-height: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    body {
+        background-color: #016F52;
+        font-family: Arial, Helvetica, sans-serif;
+        max-height: 100%;
+        max-width: 100%;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    .middleHeading a:not(:first-child) {
+        display: none;
+    }
+
+    .middleHeading a.icon {
+        float: right;
+        display: block;
+    }
+    .miningWidget {
+        background-color: #78BE20;
+        border: 2px solid black;
+        display: inline-block;
+        min-height: 400px;
+        min-width: 310px;
+        max-width: 500px;
+    }
+
+    .walletWidget {
+        background-color: #78BE20;
+        border: 2px solid black;
+        display: inline-block;
+        min-height: 400px;
+        min-width: 310px;
+        max-width: 500px;
+    }
+
+    .infoWidget {
+        background-color: #78BE20;
+        border: 2px solid black;
+        display: inline-block;
+        min-height: 400px;
+        min-width: 310px;
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .middleHeading {
+        overflow: hidden;
+        border-bottom: 2px solid black;
+        background-color: #016F52;
+        margin: 0;
+        width: 100%;
+    }
+
+    .middleHeading.responsive {
+        position: relative;
+    }
+
+    .middleHeading.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .middleHeading.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
