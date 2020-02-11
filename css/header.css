@@ -8,7 +8,7 @@ html{
 body {
     background-color: #016F52;
     font-family: Arial, Helvetica, sans-serif;
-    max-height: 100%;
+    min-height: 100%;
     max-width: 100%;
     margin: 0;
 }
@@ -48,34 +48,28 @@ body {
     background-color: #78BE20;
     border: 2px #016F52;
     display: inline-block;
-    padding: 16px;
     margin: 16px;
-    height: 62vh;
-    alignment: left;
-    width: 60vh;
+    max-height: 700px;
+    max-width: 25%;
 }
 
 .walletWidget {
     background-color: #78BE20;
     border: #016F52;
     display: inline-block;
-    padding: 16px;
     margin: 16px;
-    height: 62vh;
-    alignment: center;
-    width: 60vh
+    max-height: 700px;
+    max-width: 25%;
 }
 
 .infoWidget {
     background-color: #78BE20;
     border: #016F52;
     display: inline-block;
-    padding: 16px;
     margin: 16px;
-    height: 62vh;
-    alignment: right;
-    width: 60vh;
-}
+    max-height: 700px;
+    max-width: 25%;
+ }
 
 
 .middleHeading a {
@@ -115,7 +109,7 @@ body {
         max-height: 100%;
         max-width: 100%;
         margin: 0;
-
+        overflow-x: hidden;
     }
 
     .middleHeading a:not(:first-child) {
@@ -128,39 +122,41 @@ body {
     }
     .miningWidget {
         background-color: #78BE20;
-        border: 2px #016F52;
+        border: 2px solid black;
         display: inline-block;
-        padding: 16px;
-        margin: 12px;
-        height: 62vh;
-        position: relative;
-        max-width: 100%;
+        min-height: 400px;
+        min-width: 310px;
+        max-width: 500px;
     }
 
     .walletWidget {
         background-color: #78BE20;
-        border: #016F52;
+        border: 2px solid black;
         display: inline-block;
-        padding: 16px;
-        margin: 12px;
-        height: 62vh;
-        alignment: center;
-        max-width: 100%;
+        min-height: 400px;
+        min-width: 310px;
+        max-width: 500px;
     }
 
     .infoWidget {
         background-color: #78BE20;
-        border: #016F52;
+        border: 2px solid black;
         display: inline-block;
-        padding: 16px;
-        margin: 12px;
-        height: 62vh;
-        alignment: center;
-        max-width: 100%;
+        min-height: 400px;
+        min-width: 310px;
+        max-width: 500px;
     }
 }
 
 @media screen and (max-width: 600px) {
+    .middleHeading {
+        overflow: hidden;
+        border-bottom: 2px solid black;
+        background-color: #016F52;
+        margin: 0;
+        width: 100%;
+    }
+
     .middleHeading.responsive {
         position: relative;
     }
