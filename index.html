@@ -14,43 +14,44 @@
 <body>
 <link rel="stylesheet" href="css/header.css">
 
-<div class="topHeadingRow">
-    <div class="topHeadingCol1" style="float: right">
-        <img src="images/VikingCoinLogo.jpg" height="75px">
+<div>
+    <div class="topHeadingRow">
+        <div class="topHeadingCol1" style="float: right">
+            <img src="images/VikingCoinLogo.jpg" height="75px">
+        </div>
+        <div class="topHeadingCol2">
+            <h2>VikingCoin</h2>
+        </div>
     </div>
-    <div class="topHeadingCol2">
-        <h2>VikingCoin</h2>
-    </div>
-</div>
 
-<script>
-    function myFunction() {
-        var x = document.getElementById("middleHeadingMenu");
-        if (x.className === "middleHeading") {
-            x.className += " responsive";
-        } else {
-            x.className = "middleHeading";
+    <script>
+        function myFunction() {
+            var x = document.getElementById("middleHeadingMenu");
+            if (x.className === "middleHeading") {
+                x.className += " responsive";
+            } else {
+                x.className = "middleHeading";
+            }
         }
-    }
-</script>
+    </script>
 
-<div class="middleHeading" id="middleHeadingMenu">
-    <a href="#home">Home</a>
-    <a href="#mining">Mining</a>
-    <a href="#wallet">Wallet</a>
-    <a href="#info">Information</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
+    <div class="middleHeading" id="middleHeadingMenu">
+        <a href="#home">Home</a>
+        <a href="#mining">Mining</a>
+        <a href="#wallet">Wallet</a>
+        <a href="#info">Information</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="bottomHeading" style="margin: 0; padding: 2px;">
+        <p>Send/Receive Money, Earn Money, all Decentralized Courtesy of Blockchain</p>
+    </div>
 </div>
-<div class="bottomHeading" style="margin: 0; padding: 2px;">
-    <p>Send/Receive Money, Earn Money, all Decentralized Courtesy of Blockchain</p>
-</div>
 
-
-<div style="padding: 16px">
-    <div class="miningWidget">
-        <div style="text-align: center; font-size: 24pt;padding: 8px">
+<div class="widgetRow" style=" text-align: center; height: 100%;">
+    <div class="widget">
+        <div style="text-align: center; font-size: 24pt">
             <h2>Mining</h2>
             <h6>Are you at CSU? Would you like to make money? Starting mining! VikingCoin, get paid to stay
                 involved.</h6>
@@ -58,45 +59,39 @@
         </div>
     </div>
 
-    <div class="walletWidget">
+    <div class="widget">
         <div style="text-align: center;font-size: 24pt">
             <h2>Wallet</h2>
-            <h6>Current balance: 0 VC</h6>
-            <h6>Your current probability is 1.16%</h6>
-            <h6>To raise this probability burn more coins</h6>
-            <h6></h6>
-            <button style="height: 75px; width: 75px">Burn Coins</button>
+            <h6>Current balance: 0 VC <br>
+                Your current probability is 1.16%</h6>
+            <button style="height: 75px; width: 225px">Burn Coins</button>
         </div>
     </div>
 
-    <div class="infoWidget">
+    <div class="widget">
         <div style="text-align: center;font-size: 24pt">
             <h2>Information</h2>
             <h6>VikingCoin or VC is a senior design project created by Raymond Riter, Safaldeep Nehal, Madhav Pyakurel,
                 and Johnnie Gilkerson.</h6>
-            <button style="height: 100px; width: 75px">Start Mining</button>
+            <button style="height: 75px; width: 225px">Start Mining</button>
         </div>
     </div>
 </div>
 
-<div class="footer">
-    <div style="text-align:left">
-        <div class="row">
-            <div class="column" style="padding: 8px; border-top: 2px solid black">
-                <div style="border-bottom: 2px solid black">Feedback: Tell us any problems or opinions.</div>
-                <br>
-                <form action="/action_page.php">
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Your email address...">
-                    </div>
-                </form>
-            </div>
+<div class="footer" style="text-align:left">
+    <div class="row">
+        <div class="column" style="padding: 8px; border-top: 2px solid black">
+            <div style="border-bottom: 2px solid black">Feedback: Tell us any problems or opinions.</div>
+            <br>
             <div>
-                <label for="email">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Your message..."
-                          style="height:25%"></textarea>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email address...">
             </div>
+        </div>
+        <div>
+            <label for="email">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Your message..."
+                      style="height:25%"></textarea>
         </div>
     </div>
 </div>
