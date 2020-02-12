@@ -16,7 +16,7 @@
 
 <div class="topHeadingRow">
     <div class="topHeadingCol1" style="float: right">
-        <img src="images/VikingCoinLogo.jpg" width="" height="75px">
+        <img src="images/VikingCoinLogo.jpg" height="75px">
     </div>
     <div class="topHeadingCol2">
         <h2>VikingCoin</h2>
@@ -48,7 +48,7 @@
 </div>
 
 
-<div>
+<div style="padding: 16px">
     <div class="miningWidget">
         <div style="text-align: center; font-size: 24pt;padding: 8px">
             <h2>Mining</h2>
@@ -72,35 +72,35 @@
     <div class="infoWidget">
         <div style="text-align: center;font-size: 24pt">
             <h2>Information</h2>
-            <h6>VikingCoin or VC is a senior design project created by Raymond Riter, Safaldeep Nehal, Madhav Pyakurel, and Johnnie Gilkerson.</h6>
+            <h6>VikingCoin or VC is a senior design project created by Raymond Riter, Safaldeep Nehal, Madhav Pyakurel,
+                and Johnnie Gilkerson.</h6>
             <button style="height: 100px; width: 75px">Start Mining</button>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div style="text-align:left">
+        <div class="row">
+            <div class="column" style="padding: 8px; border-top: 2px solid black">
+                <div style="border-bottom: 2px solid black">Feedback: Tell us any problems or opinions.</div>
+                <br>
+                <form action="/action_page.php">
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email address...">
+                    </div>
+                </form>
+            </div>
+            <div>
+                <label for="email">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Your message..."
+                          style="height:25%"></textarea>
+            </div>
         </div>
     </div>
 </div>
 </body>
 
-
-<footer>
-    <link rel="stylesheet" href="css/footer.css">
-
-    <!-- Fixed footer text data etc. -->
-    <div class="footer">
-        <div style="text-align:left; margin-bottom: 8px">
-            <div class="row">
-                <div class="column">
-                    <form action="/action_page.php">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Your email address...">
-                        <br>
-                        <label for="email">Subject</label>
-                        <textarea id="subject" name="subject" placeholder="Your message..."
-                                  style="height:25%"></textarea>
-                        <br>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
 
 </html>
