@@ -2,4 +2,12 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/vikingco/public_html
+    - export DEPLOYPATH2=/home/vikingco/public_html/css
+    - export DEPLOYPATH3=/home/vikingco/public_html/images
+    - export DEPLOYPATH4=/home/vikingco/public_html/html
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp secondaryPage.css $DEPLOYPATH2
+    - /bin/cp VikingCoinLogo.jpg $DEPLOYPATH3
+    - /bin/cp information.html $DEPLOYPATH44
+    - /bin/cp mining.html $DEPLOYPATH4
+    - /bin/cp wallet.html $DEPLOYPATH4

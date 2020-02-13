@@ -62,11 +62,10 @@ body {
     display: inline-block;
     margin-right: 16px;
     margin-bottom: 16px;
-    padding: 16px;
     height: 100%;
     position: static;
     border-radius: 15px;
-    padding-bottom: 2%;
+    padding: 16px 16px 2%;
     width: 30%;
     vertical-align: top;
 }
