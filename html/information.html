@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <title>Information</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="VikingCoin Cryptocurrency">
+    <meta name="keywords" content="HTML,CSS,Cryptocurrency,JavaScript">
+    <meta name="author" content="Safaldeep Nehal, Raymond Riter">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<link rel="stylesheet" href="../css/secondaryPage.css">
+<link rel="stylesheet" href="../css/homePage.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topHeadingRow">
+    <div class="topHeadingCol1" style="float: right">
+        <img src="../images/VikingCoinLogo.jpg" width="" height="75px">
+    </div>
+    <div class="topHeadingCol2">
+        <h2>VikingCoin</h2>
+    </div>
+</div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("middleHeadingMenu");
+        if (x.className === "middleHeading") {
+            x.className += " responsive";
+        } else {
+            x.className = "middleHeading";
+        }
+    }
+</script>
+
+<div class="middleHeading" id="middleHeadingMenu">
+    <a href="index.html#home">Home</a>
+    <a href="mining.html#mining">Mining</a>
+    <a href="wallet.html#wallet">Wallet</a>
+    <a href="information.html#information">Information</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+<div class="bottomHeading" style="margin: 0; padding: 2px;">
+    <p>Send/Receive Money, Earn Money, all Decentralized Courtesy of Blockchain</p>
+</div>
+<link rel="stylesheet" href="../css/secondaryPage.css">
+<div class="boxed">
+    <div style="text-align: center; font-size: 24pt;padding: 8px">
+        <h2>Information</h2>
+        <h6>VikingCoin or VC is a senior design project created by Raymond Riter, Safaldeep Nehal, Madhav Pyakurel,
+            and Johnnie Gilkerson. </h6>
+        <h6>It is a Cryptocurrency for use on school campuses as a currency internally.
+            It is to be used to gain involvement in activates and reward those that are.
+            By being involved you will make passive income by going to 'sponsered' events.</h6>
+        <h6>These coins may then be burned so that
+            next time you go to an event you may get a big bonus!</h6>
+    </div>
+</div>
+</body>
+<div class="footer" style="text-align:left">
+    <div class="row">
+        <div class="column" style="padding: 8px; border-top: 2px solid black">
+            <div style="border-bottom: 2px solid black">Feedback: Tell us any problems or opinions.</div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email address...">
+            </div>
+        </div>
+        <div>
+            <label for="email">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Your message..."
+                      style="height:25%"></textarea>
+        </div>
+    </div>
+</div>
+</html>

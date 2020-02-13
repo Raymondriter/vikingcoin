@@ -8,8 +8,8 @@ html {
 body {
     background-color: #016F52;
     font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
-    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
     margin: 0;
 }
 
@@ -54,25 +54,26 @@ body {
     background-color: #78BE20;
     border: 2px solid black;
     display: inline-block;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-right: 16px;
     margin-bottom: 8px;
     height: 100%;
     position: static;
-    padding-bottom: 22%;
+    padding-bottom: 2%;
     width: 30%;
     vertical-align: top;
 }
 
 .footer {
     background-color: #78BE20;
-    position: relative;
+    position: absolute;
     bottom: 0;
+    margin: 0;
     width: 100%;
     alignment-baseline: baseline;
     height: 150px;
     clear: both;
 }
+
 
 .middleHeading a {
     float: left;
@@ -106,6 +107,17 @@ body {
         overflow-x: hidden;
     }
 
+    .footer {
+        background-color: #78BE20;
+        position: relative;
+        bottom: 0;
+        margin: 0;
+        width: 100%;
+        alignment-baseline: baseline;
+        height: 150px;
+        clear: both;
+    }
+
     body {
         background-color: #016F52;
         font-family: Arial, Helvetica, sans-serif;
@@ -129,6 +141,7 @@ body {
         border: 2px solid black;
         display: inline-block;
         width: 95%;
+        padding: 8px;
     }
 
 }
