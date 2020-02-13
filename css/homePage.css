@@ -154,6 +154,7 @@ body {
     .widget {
         background-color: #78BE20;
         border: 2px solid black;
+        border-radius: 15px;
         display: inline-block;
         width: 95%;
         padding: 8px;
