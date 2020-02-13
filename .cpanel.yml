@@ -7,6 +7,7 @@ deployment:
     - export DEPLOYPATH4=/home/vikingco/public_html/html
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp secondaryPage.css $DEPLOYPATH2
+    - /bin/cp homePage.css $DEPLOYPATH2
     - /bin/cp VikingCoinLogo.jpg $DEPLOYPATH3
     - /bin/cp information.html $DEPLOYPATH44
     - /bin/cp mining.html $DEPLOYPATH4
