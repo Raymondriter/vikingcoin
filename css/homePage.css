@@ -11,8 +11,29 @@ body {
     background-color: #016F52;
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100%;
+    min-width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 150px;
     background-image: linear-gradient(to right, greenyellow, orange, yellow, green);
 
+}
+
+.push{
+    height: 16px;
+}
+
+.footer {
+    background-color: #78BE20;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 135px;
+    clear: both;
 }
 
 .middleHeading {
@@ -46,41 +67,32 @@ body {
 .bottomHeading {
     background-color: #78BE20;
     font-size: 20px;
+    border-bottom: 2px solid black;
     color: #fff;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 12px 16px 26px 0px rgba(0, 0, 0, 0.4);
 }
 
-.miningWidget {
-    background-color: #78BE20;
-    border: 2px #016F52;
-    display: inline-block;
+.widgetRow{
     margin: 16px;
-    max-height: 700px;
-    max-width: 25%;
-    box-shadow: 12px 16px 26px 0px rgba(0, 0, 0, 0.4);
 }
 
-.walletWidget {
+
+.widget {
     background-color: #78BE20;
-    border: #016F52;
+    border: 2px solid black;
     display: inline-block;
-    margin: 16px;
-    max-height: 700px;
-    max-width: 25%;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    height: 100%;
+    position: static;
+    border-radius: 15px;
+    padding: 16px 16px 2%;
+    width: 30%;
+    vertical-align: top;
     box-shadow: 12px 16px 26px 0px rgba(0, 0, 0, 0.4);
 }
-
-.infoWidget {
-    background-color: #78BE20;
-    border: #016F52;
-    display: inline-block;
-    margin: 16px;
-    max-height: 700px;
-    max-width: 25%;
-    box-shadow: 12px 16px 26px 0px rgba(0, 0, 0, 0.4);
- }
 
 
 .middleHeading a {
