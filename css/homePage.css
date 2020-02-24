@@ -1,9 +1,11 @@
-html {
+html{
     margin: 0;
     max-height: 100%;
     max-width: 100%;
     overflow-x: hidden;
 }
+
+
 
 body {
     background-color: #016F52;
@@ -14,60 +16,8 @@ body {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 150px;
-}
+    background-image: linear-gradient(to right, greenyellow, orange, yellow, green);
 
-.middleHeading {
-    overflow: hidden;
-    border-bottom: 2px solid black;
-    background-color: #016F52;
-}
-
-.topHeading {
-    background-color: #78BE20;
-    color: #fff;
-    border-bottom: 2px solid black;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.topHeadingCol1{
-
-}
-.topHeadingCol2 {
-    text-align: center;
-    color: #fff;
-    font-size: 18px;
-}
-
-.topHeadingRow {
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
-    background-color: #78BE20;
-}
-
-.bottomHeading {
-    background-color: #78BE20;
-    font-size: 20px;
-    border-bottom: 2px solid black;
-    color: #fff;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif
-}
-
-.widgetRow{
-    margin: 16px;
-}
-
-.widget {
-    background-color: #78BE20;
-    border: 2px solid black;
-    display: inline-block;
-    margin-right: 16px;
-    margin-bottom: 16px;
-    height: 100%;
-    position: static;
-    border-radius: 15px;
-    padding: 16px 16px 2%;
-    width: 30%;
-    vertical-align: top;
 }
 
 .push{
@@ -86,6 +36,67 @@ body {
     clear: both;
 }
 
+.middleHeading {
+    overflow: hidden;
+    border-bottom: 2px solid black;
+    background-color: #016F52;
+    box-shadow: 12px 16px 26px 0px rgba(0, 0, 0, 0.4);
+
+}
+
+.topHeading {
+    background-color: #78BE20;
+    color: #fff;
+    border-bottom: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 12px 16px 26px 0px rgba(0, 0, 0, 0.4);
+}
+.topHeadingCol2{
+    font-family: georgia, garamond, serif;
+    font-style: italic;
+    text-shadow: 4px 4px #e77822;
+    color: #fff;
+    font-size: 56.5px;
+}
+.topHeadingRow{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    background-color: #78BE20;
+    box-shadow: 12px 16px 26px 0px rgba(0, 0, 0, 0.4);
+}
+
+.bottomHeading {
+    background-color: #78BE20;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 12px 16px 26px 0px rgba(0, 0, 0, 0.4);
+}
+
+.widgetRow{
+    margin: 16px;
+    text-align: center;
+}
+
+
+.widget {
+    background-color: #78BE20;
+    border: 2px solid black;
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    height: 100%;
+    position: static;
+    border-radius: 15px;
+    padding: 16px 16px 2%;
+    width: 25%;
+    vertical-align: top;
+    box-shadow: 12px 16px 26px 0px rgba(0, 0, 0, 0.4);
+}
+
+
 
 .middleHeading a {
     float: left;
@@ -93,8 +104,9 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-right: 2px solid black;
+    border-right: 1px solid black;
     font-size: 17px;
+    box-shadow: 12px 16px 26px 0px rgba(0, 0, 0, 0.4);
 }
 
 .middleHeading a:hover {
@@ -112,27 +124,12 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    html {
+    html{
         margin: 0;
         max-height: 100%;
         max-width: 100%;
         overflow-x: hidden;
     }
-    .push{
-        height: 0px;
-    }
-
-    .footer {
-        background-color: #78BE20;
-        position: relative;
-        bottom: 0;
-        margin: 0;
-        width: 100%;
-        alignment-baseline: baseline;
-        height: 150px;
-        clear: both;
-    }
-
     body {
         background-color: #016F52;
         font-family: Arial, Helvetica, sans-serif;
@@ -150,16 +147,47 @@ body {
         float: right;
         display: block;
     }
+    .footer {
+        background-color: #78BE20;
+        position: relative;
+        bottom: 0;
+        margin: 0;
+        width: 100%;
+        alignment-baseline: baseline;
+        height: 150px;
+        clear: both;
+    }
 
+    .topHeadingRow{
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+        width: 100%;
+        background-color: #78BE20;
+        box-shadow: 12px 16px 26px 0;
+        rgba(0, 0, 0, 0.4);
+    }
+    .push{
+        height: 0;
+    }
     .widget {
         background-color: #78BE20;
         border: 2px solid black;
+        box-shadow: 12px 16px 26px 0;
+        rgba(0, 0, 0, 0.4);
         border-radius: 15px;
         display: inline-block;
         width: 95%;
         padding: 8px;
     }
 
+    .topHeadingCol2{
+        text-align: center;
+        font-family: georgia, garamond, serif;
+        font-style: italic;
+        text-shadow: 4px 4px #e77822;
+        color: #fff;
+        font-size: 36px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -185,5 +213,15 @@ body {
         float: none;
         display: block;
         text-align: left;
+    }
+
+    .bottomHeading {
+        background-color: #78BE20;
+        font-size: 18px;
+        border-bottom: 2px solid black;
+        color: #fff;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 12px 16px 26px 0px rgba(0, 0, 0, 0.4);
     }
 }
