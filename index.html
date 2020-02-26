@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-
-<!-- Johnnies version-->
-
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
     <title>VikingCoin</title>
@@ -56,7 +53,7 @@
     <div class="widget">
 
         <div style="text-align: center; font-size: 24pt;padding: 8px">
-            <h2 style = "font-family:georgia,garamond,serif;font-size:50px;font-style:italic;text-shadow: 2px 2px #a8f1ad;">Mining</h2>
+            <h2>Mining</h2>
             <h6>Are you at CSU? Would you like to make money? Starting mining! VikingCoin, get paid to stay
                 involved.</h6>
             <button style="height: 75px; width: 225px">Start Mining</button>
@@ -65,7 +62,7 @@
 
     <div class="widget">
         <div style="text-align: center;font-size: 24pt">
-            <h2 style = "font-family:georgia,garamond,serif;font-size:50px;font-style:italic;text-shadow: 2px 2px #a8f1ad;">Wallet</h2>
+            <h2>Wallet</h2>
             <h6>Current balance: 0 VC</h6>
             <h6>Your current probability is 1.16%</h6>
             <h6>To raise this probability burn more coins</h6>
@@ -76,25 +73,31 @@
 
     <div class="widget">
         <div style="text-align: center;font-size: 24pt">
-            <h2 style = "font-family:georgia,garamond,serif;font-size:50px;font-style:italic;text-shadow: 2px 2px #a8f1ad;">Information</h2>
+            <h2>Information</h2>
             <h6>VikingCoin or VC is a senior design project created by Raymond Riter, Safaldeep Nehal, Madhav Pyakurel, and Johnnie Gilkerson.</h6>
             <button style="height: 100px; width: 75px">Start Mining</button>
         </div>
     </div>
 </div>
 
-
+<div class="push"></div>
 
 <div class="footer" style="text-align:left">
-    <br>
-Please enter your name,email and a message.
-
-    <form method="post" action="mailto:r.riter@vikes.csuohio.edu" >
-        <input type="text" placeholder=" name" name = "name"><br>
-        <input type="text" placeholder="E-mail" name="email"><br>
-        <input type="text" placeholder="message" name="message"><br>
-        <input type="submit">
-    </form>
+    <div class="row">
+        <div class="column" style="padding: 8px; border-top: 2px solid black">
+            <div style="border-bottom: 2px solid black">Feedback: Tell us any problems or opinions.</div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email address...">
+            </div>
+        </div>
+        <div>
+            <label for="email">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Your message..."
+                      style="height:25%"></textarea>
+        </div>
+    </div>
 </div>
 
 </body>
