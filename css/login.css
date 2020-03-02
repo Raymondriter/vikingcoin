@@ -39,7 +39,7 @@ button:hover {
 }
 
 img.avatar {
-    width: 40%;
+    width: 15%;
     border-radius: 50%;
 }
 
@@ -124,5 +124,8 @@ span.psw {
 
     .cancelbtn {
         width: 100%;
+    }
+    .newRegister{
+        width:100%;
     }
 }
