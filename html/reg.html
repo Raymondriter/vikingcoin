@@ -12,10 +12,8 @@
 </head>
 
 <body>
-<link rel="stylesheet" href="css/homePage.css">
-<link rel="stylesheet" href="css/login.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<link rel="stylesheet" href="../css/secondaryPage.css">
+<link rel="stylesheet" href="../css/homePage.css">
 <div class="topHeadingRow">
     <div class="topHeadingCol1" style="float: right">
         <img src="images/VikingCoinLogo.jpg"
@@ -54,92 +52,32 @@
 
 <div class="widgetRow">
     <div class="widget">
-
-        <div style="text-align: center; font-size: 24pt;padding: 8px">
-            <h2>Mining</h2>
-            <h6>Are you at CSU? Would you like to make money? Starting mining! VikingCoin, get paid to stay
-                involved.</h6>
-            <button style="height: 75px; width: 225px">Start Mining</button>
+        <div>
+            <label for="uname"><b>Register for VikingCoin</b></label><br><br><br>
         </div>
-    </div>
-
-    <div class="widget">
-        <div style="text-align: center;font-size: 24pt">
-            <h2>Wallet</h2>
-            <h6>Current balance: 0 VC</h6>
-            <h6>Your current probability is 1.16%</h6>
-            <h6>To raise this probability burn more coins</h6>
-            <h6></h6>
-            <button style="height: 75px; width: 75px">Burn Coins</button>
-        </div>
-    </div>
-
-    <div class="widget">
-        <div style="text-align: center;font-size: 24pt">
-            <h2>Information</h2>
-            <h6>VikingCoin or VC is a senior design project created by Raymond Riter, Safaldeep Nehal, Madhav Pyakurel,
-                and Johnnie Gilkerson.</h6>
-            <button style="height: 100px; width: 75px">Start Mining</button>
-        </div>
-    </div>
-</div>
-
-<div class="push"></div>
-<!--login-->
-
-<div id="id01" class="modal">
-
-    <form class="modal-content animate" action="/action_page.php" method="post">
-        <div class="imgcontainer">
-            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-            <img src="images/magnus.png" alt="Avatar" class="avatar" style=" width: 8%; height: 8%;">
-        </div>
-
-        <div class="container">
-            <label for="uname"><b>Username</b></label>
+        <div>
+            <label for="uname"><b>CSU Email</b></label>
             <input type="text" placeholder="Enter Username" name="uname" required>
-
+        </div>
+        <div>
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
-
-            <button type="submit">Login</button>
+        </div>
+        <div>
+            <label for="psw"><b>Password again</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+        </div>
+        <div>
+            <button type="submit">Register</button>
             <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
+                <input type="checkbox" checked="checked" name="remember"> Also log in
             </label>
         </div>
+    </div>
 
-        <div class="container" style="background-color:#f1f1f1">
-            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-            <span class="register">Register? <a href="html/reg.html#Register">Click here</a></span>
-            <span class="psw">Forgot <a href="#">password?</a></span>
-        </div>
-    </form>
-</div>
+</body>
 
-<script>
-    // Get the modal
-    var modal = document.getElementById('id01');
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-</script>
-
-<!--LOGIN PART ENDS-->
-
-
-
-
-
-
-
-
-
-
-
+<div class="push"></div>
 
 <div class="footer" style="text-align:left">
     <div class="row">
@@ -168,9 +106,5 @@
 
 <!-- Initialize Firebase -->
 <script src="/__/firebase/init.js"></script>
-
-
-
-</body>
 
 </html>
