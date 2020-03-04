@@ -19,6 +19,13 @@ body {
     background-image: linear-gradient(to right, greenyellow, orange, yellow, green);
 
 }
+input{
+    vertical-align: baseline;
+    horiz-align: left;
+}
+label{
+    horiz-align: left;
+}
 
 .push{
     height: 16px;
@@ -33,6 +40,10 @@ body {
     overflow: hidden;
     height: auto;
     clear: both;
+}
+.footerForm{
+
+
 }
 
 .middleHeading {

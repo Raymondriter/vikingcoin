@@ -27,7 +27,7 @@
 
 <script>
     function myFunction() {
-        var x = document.getElementById("middleHeadingMenu");
+        const x = document.getElementById("middleHeadingMenu");
         if (x.className === "middleHeading") {
             x.className += " responsive";
         } else {
@@ -77,9 +77,8 @@
             </div>
         </div>
         <div>
-            <label for="email">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Your message..."
-                      style="height:25%"></textarea>
+            <label for="subject">Subject</label><textarea id="subject" name="subject" placeholder="Your message..."
+                                                   style="height:25%"></textarea>
         </div>
     </div>
 </div>
