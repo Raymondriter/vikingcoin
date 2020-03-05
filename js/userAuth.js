@@ -26,16 +26,18 @@ userRegForm.addEventListener('submit', (e) => {
     const psw = userRegForm['pswIn'].value;
     const pswRe = userRegForm['pswInRe'].value;
 
-
-    auth.createUserWithEmailAndPassword(email, psw).then(cred => {
-        console.log(cred);
-    }).catch(function (error) {
-        const errorCode = error.code;
-        const errorMessage = error.message;
-        alert(errorMessage);
-        console.log(errorCode);
-    })
-});
+    if(psw !== pswRe){
+        alert("Passwords do not match");
+    }else {
+        auth.createUserWithEmailAndPassword(email, psw).then(cred => {
+            console.log(cred);
+        }).catch(function (error) {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            alert(errorMessage);
+            console.log(errorCode);
+        })
+    }});
 
 signInForm.addEventListener('submit', (e) => {
     e.preventDefault();
