@@ -71,7 +71,7 @@
             <h2>Mining</h2>
             <h6>Are you at CSU? Would you like to make money? Starting mining! VikingCoin, get paid to stay
                 involved.</h6>
-            <button style="height: 75px; width: 225px; background-color: #016F52;">Start Mining</button>
+            <button style="height: 75px; width: 225px;">Start Mining</button>
         </div>
     </div>
 
@@ -82,7 +82,7 @@
             <h6>Your current probability is 1.16%</h6>
             <h6>To raise this probability burn more coins</h6>
             <h6></h6>
-            <button style="height: 75px; width: 75px; background-color: #016F52;">Burn Coins</button>
+            <button style="height: 75px; width: 75px">Burn Coins</button>
         </div>
     </div>
 
@@ -91,7 +91,7 @@
             <h2>Information</h2>
             <h6>VikingCoin or VC is a senior design project created by Raymond Riter, Safaldeep Nehal, Madhav Pyakurel,
                 and Johnnie Gilkerson.</h6>
-            <button style="height: 100px; width: 75px; background-color: #016F52;">Start Mining</button>
+            <button style="height: 100px; width: 75px">Start Mining</button>
         </div>
     </div>
 </div>
@@ -191,14 +191,12 @@
         <form method="post" action="mailto:feedback@vikingcoin.org">
             <div class="footerForm">
                 <div>
-                    <label for="email">Email: </label><br>
-                    <input type="text" placeholder="Contact E-mail" id="email" style="width: 20%"><br>
                     <label for="subject">Subject: </label><br>
                     <input type="text" placeholder="Subject" id="subject" style="width: 20%"><br>
                 </div>
                 <div>
                     <label for="message">Feedback: </label><br>
-                    <input type="text" placeholder="Message" id="message" style="width: 20%"><br>
+                    <input type="text" placeholder="Message" id="message" style="width: 20%; height: auto"><br>
                     <input type="submit" style="alignment: right">
                 </div>
             </div>
@@ -231,8 +229,7 @@
         firebase.analytics();
         const auth = firebase.auth();
     </script>
-
-    <script src="js/userAuth.js"></script>
+<script src="js/userAuth.js"></script>
 </body>
 
 </html>
