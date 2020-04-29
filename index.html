@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:height="http://www.w3.org/1999/xhtml" xmlns:width="http://www.w3.org/1999/xhtml">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
     <title>VikingCoin</title>
@@ -38,9 +38,9 @@
     }
 
     function logout() {
-        firebase.auth().signOut().then(function() {
+        firebase.auth().signOut().then(function () {
             // Sign-out successful.
-        }).catch(function(error) {
+        }).catch(function (error) {
             // An error happened.
             alert("ERROR unable to sign out successfully")
         });
@@ -71,7 +71,7 @@
             <h2>Mining</h2>
             <h6>Are you at CSU? Would you like to make money? Starting mining! VikingCoin, get paid to stay
                 involved.</h6>
-            <button style="height: 75px; width: 225px;">Start Mining</button>
+            <button id="miningBtn" style="height: 75px; width: 225px;">Start Mining</button>
         </div>
     </div>
 
@@ -91,7 +91,6 @@
             <h2>Information</h2>
             <h6>VikingCoin or VC is a senior design project created by Raymond Riter, Safaldeep Nehal, Madhav Pyakurel,
                 and Johnnie Gilkerson.</h6>
-            <button style="height: 100px; width: 75px">Start Mining</button>
         </div>
     </div>
 </div>
@@ -203,32 +202,32 @@
         </form>
     </div>
 </div>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
 
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-         https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
 
-    <script>
-        // Your web app's Firebase configuration
-        const firebaseConfig = {
-            apiKey: "AIzaSyAG8aOpJYBvgoylNI-j_zB6u6MVAQmoOWc",
-            authDomain: "vikingcoin.firebaseapp.com",
-            databaseURL: "https://vikingcoin.firebaseio.com",
-            projectId: "vikingcoin",
-            storageBucket: "vikingcoin.appspot.com",
-            messagingSenderId: "48510884758",
-            appId: "1:48510884758:web:1fcb1bbdb95cceb916dbb7",
-            measurementId: "G-3DWGXBRDG2"
-        };
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
+<script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+        apiKey: "AIzaSyAG8aOpJYBvgoylNI-j_zB6u6MVAQmoOWc",
+        authDomain: "vikingcoin.firebaseapp.com",
+        databaseURL: "https://vikingcoin.firebaseio.com",
+        projectId: "vikingcoin",
+        storageBucket: "vikingcoin.appspot.com",
+        messagingSenderId: "48510884758",
+        appId: "1:48510884758:web:1fcb1bbdb95cceb916dbb7",
+        measurementId: "G-3DWGXBRDG2"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
 
-        firebase.analytics();
-        const auth = firebase.auth();
-    </script>
+    firebase.analytics();
+    const auth = firebase.auth();
+</script>
 <script src="js/userAuth.js"></script>
 </body>
 

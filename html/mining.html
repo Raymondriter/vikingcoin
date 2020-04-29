@@ -38,9 +38,9 @@
     }
 
     function logout() {
-        firebase.auth().signOut().then(function() {
+        firebase.auth().signOut().then(function () {
             // Sign-out successful.
-        }).catch(function(error) {
+        }).catch(function (error) {
             // An error happened.
             alert("ERROR unable to sign out successfully")
         });
